@@ -70,3 +70,16 @@ docker volume create <volume-name>
 # Inspect Volume
 docker volume inspect <volume-name>
 ```
+
+## System
+```sh
+# See Overview
+docker system df
+  -v        : Verbose
+  
+# Docker Info
+docker system info
+
+# Clean Up Images
+docker system prune
+```
